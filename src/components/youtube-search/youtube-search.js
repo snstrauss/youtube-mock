@@ -4,7 +4,9 @@ import './youtube-search.css';
 import SongsContext from '../../contexts/songs.context';
 import SearchResults from '../search-results/search-results';
 import SongView from '../song-view/song-view';
+import { getSongId } from '../../services/song.service';
 
+const songsHistory = [];
 export default function YoutubeSearch(){
 
     const [allSongs, setSongs] = useState();
@@ -33,18 +35,34 @@ export default function YoutubeSearch(){
                 return songs;
             }
 
+            window.onpopstate = goBack;
+
             setSongs({
                 songs,
                 flatSongs
             });
+
+            return () => {
+                window.onpopstate = null;
+            }
         })
     }, [])
+
+    function goBack(){
+        const nextSong = songsHistory.pop();
+        setSelectedSong(nextSong);
+    }
 
     function gotSongs(songs){
         setFoundSongs(songs);
     }
 
     function selectSong(song){
+        if(selectedSong){
+            songsHistory.push(selectedSong);
+        }
+
+        window.history.pushState(getSongId(song), song.name);
         setSelectedSong(song);
     }
 

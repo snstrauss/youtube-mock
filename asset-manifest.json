@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/snstrauss.github.io/youtube-mock/static/css/main.80771197.chunk.css",
-    "main.js": "/snstrauss.github.io/youtube-mock/static/js/main.09da7ef2.chunk.js",
-    "main.js.map": "/snstrauss.github.io/youtube-mock/static/js/main.09da7ef2.chunk.js.map",
+    "main.js": "/snstrauss.github.io/youtube-mock/static/js/main.e90b3772.chunk.js",
+    "main.js.map": "/snstrauss.github.io/youtube-mock/static/js/main.e90b3772.chunk.js.map",
     "runtime-main.js": "/snstrauss.github.io/youtube-mock/static/js/runtime-main.0314d287.js",
     "runtime-main.js.map": "/snstrauss.github.io/youtube-mock/static/js/runtime-main.0314d287.js.map",
     "static/js/2.f68b0174.chunk.js": "/snstrauss.github.io/youtube-mock/static/js/2.f68b0174.chunk.js",
     "static/js/2.f68b0174.chunk.js.map": "/snstrauss.github.io/youtube-mock/static/js/2.f68b0174.chunk.js.map",
     "index.html": "/snstrauss.github.io/youtube-mock/index.html",
-    "precache-manifest.44bce24b8e518cab7eee4aa947ca4a73.js": "/snstrauss.github.io/youtube-mock/precache-manifest.44bce24b8e518cab7eee4aa947ca4a73.js",
+    "precache-manifest.3010532c5b7d533731aee24876d14ed4.js": "/snstrauss.github.io/youtube-mock/precache-manifest.3010532c5b7d533731aee24876d14ed4.js",
     "service-worker.js": "/snstrauss.github.io/youtube-mock/service-worker.js",
     "static/css/main.80771197.chunk.css.map": "/snstrauss.github.io/youtube-mock/static/css/main.80771197.chunk.css.map",
     "static/js/2.f68b0174.chunk.js.LICENSE.txt": "/snstrauss.github.io/youtube-mock/static/js/2.f68b0174.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0314d287.js",
     "static/js/2.f68b0174.chunk.js",
     "static/css/main.80771197.chunk.css",
-    "static/js/main.09da7ef2.chunk.js"
+    "static/js/main.e90b3772.chunk.js"
   ]
 }

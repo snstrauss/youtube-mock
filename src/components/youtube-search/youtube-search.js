@@ -14,7 +14,7 @@ export default function YoutubeSearch(){
     const [foundSongs, setFoundSongs] = useState();
 
     useEffect(() => {
-        fetch('/songs.json')
+        fetch('songs.json')
         .then(res => res.json())
         .then((songs) => {
             const flatSongs = getFlatSongs(songs);

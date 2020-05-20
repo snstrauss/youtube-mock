@@ -1,7 +1,6 @@
 {
   "name": "youtube-search",
   "version": "0.1.0",
-  "homepage": "snstrauss.github.io/youtube-mock",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -18,7 +17,7 @@
     "eject": "react-scripts eject",
 
     "clean": "rm -rf ./build",
-    "predeploy": "npm run build",
+    "predeploy": "npm run clean && npm run build && node cleanIndex.js",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

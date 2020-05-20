@@ -1,8 +1,8 @@
 .search-container {
-    border: 1px solid red;
     padding: 2vh;
     display: flex;
     justify-content: center;
+    position: sticky;
 }
 
 .search-container > * {

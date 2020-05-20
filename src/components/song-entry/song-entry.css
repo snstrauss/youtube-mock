@@ -1,0 +1,45 @@
+.song-entry {
+    width: 100%;
+    /* height: calc(var(--multi) *  22vh); */
+    height: 22vh;
+
+    display: flex;
+
+    margin: calc(var(--multi) * 1vh);
+
+}
+
+.song-entry .data {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 1vw;
+}
+
+.song-entry .data > * {
+    display: flex;
+    align-items: center;
+}
+
+.song-entry .data .name, .song-entry .data .description {
+    flex: 2;
+}
+
+.song-entry .data .artist-container {
+    flex: 1;
+}
+
+.song-entry .data .artist-container .artist {
+    margin-right: calc(var(--multi) * 1vw);
+}
+
+.song-entry .data .artist-container .views {
+    font-size: calc(var(--multi) * 0.8em);
+}
+
+.song-entry .data .name {
+    font-size: calc(var(--multi) * 2em);
+    font-weight: bold;
+}

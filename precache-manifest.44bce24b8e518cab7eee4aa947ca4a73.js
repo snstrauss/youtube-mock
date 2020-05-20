@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f8d79214a53305b697c9e64f05b8513",
+    "revision": "7a0721681a2347b46cf82886893e80c4",
     "url": "/snstrauss.github.io/youtube-mock/index.html"
   },
   {
-    "revision": "412efbf52686ccfd0152",
+    "revision": "bb02f68646145a0310c9",
     "url": "/snstrauss.github.io/youtube-mock/static/css/main.80771197.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/snstrauss.github.io/youtube-mock/static/js/2.f68b0174.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "412efbf52686ccfd0152",
-    "url": "/snstrauss.github.io/youtube-mock/static/js/main.51edb90a.chunk.js"
+    "revision": "bb02f68646145a0310c9",
+    "url": "/snstrauss.github.io/youtube-mock/static/js/main.09da7ef2.chunk.js"
   },
   {
     "revision": "9b6b4c2a9e27413715fd",

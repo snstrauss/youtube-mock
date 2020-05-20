@@ -61,7 +61,7 @@ export default function YoutubeSearch(){
                         {
                             selectedSong
                             ?
-                            <SongView song={selectedSong} />
+                            <SongView song={selectedSong} selectSong={selectSong} />
                             :
                             <SearchResults results={foundSongs} selectSong={selectSong} />
                         }

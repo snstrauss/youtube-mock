@@ -2,7 +2,7 @@ import React from 'react';
 import './song-view.css';
 import SongEntry from '../song-entry/song-entry';
 
-export default function({ song }){
+export default function SongView({ song, selectSong }){
 
     return (
         <div className="song-view">
@@ -15,7 +15,7 @@ export default function({ song }){
                     song.relatedPlaylists
                     ?
                     song.relatedPlaylists.map((song) => (
-                        <SongEntry song={song} key={song.link}/>
+                        <SongEntry song={song} key={song.link} selectSong={selectSong}/>
                     ))
                     :
                     null

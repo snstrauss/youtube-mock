@@ -1,0 +1,22 @@
+.search-container {
+    border: 1px solid red;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container > * {
+    height: 4vh;
+}
+
+.search-container input {
+    width: 20vw;
+    font-size: 1.1em;
+}
+
+.search-container button {
+    width: 6vh;
+    background-color: lightgrey;
+    font-weight: bold;
+    font-size: 1.3em;
+}

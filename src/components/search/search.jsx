@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useContext } from 'react';
 import SongsContext from '../../contexts/songs.context';
+import './search.css';
 
 export default function Search({ respond }){
 
@@ -16,7 +17,7 @@ export default function Search({ respond }){
     }
 
     return (
-        <form onSubmit={(ev) => doSearch(ev)}>
+        <form onSubmit={(ev) => doSearch(ev)} className="search-container">
             <input type="text" placeholder="search for videos" onChange={(ev) => setSearchValue(ev.target.value)}/>
             <button onClick={doSearch}>GO</button>
         </form>
